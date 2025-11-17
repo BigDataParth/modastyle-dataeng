@@ -1,0 +1,10 @@
+{
+  "store_sales": {
+    "source_path": "/mnt/modastyle/source/store_sales",
+    "raw_path": "/mnt/modastyle/raw/store_sales",
+    "bronze_path": "/mnt/modastyle/bronze/store_sales",
+    "primary_key": ["txn_id"],
+    "partition_column": "ingest_date",
+    "bad_records_path": "/mnt/modastyle/bad_records/store_sales"
+  }
+}
